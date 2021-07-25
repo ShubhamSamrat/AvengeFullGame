@@ -252,8 +252,8 @@ function draw(){
   Player1Obj.collide(Ground);
   Player2Obj.collide(Ground);
 
-  Player2Obj.debug = true;
-  Player1Obj.debug = true;
+  Player2Obj.debug = false;
+  Player1Obj.debug = false;
 
   Player1Obj.collide(edges);
   Player2Obj.collide(edges);
