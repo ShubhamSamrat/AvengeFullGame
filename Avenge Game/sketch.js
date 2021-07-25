@@ -384,7 +384,7 @@ function playerControls(){
   
     }
     var healthKeyX = 0;
-    if(keyIsDown(13) && Player1Obj.y>700 ){
+    if(keyIsDown(13)){
       
       Player1Obj.changeAnimation("Punch");
 
@@ -434,7 +434,7 @@ function playerControls(){
   
     }
 
-    if(keyIsDown(13) && Player2Obj.y>690 ){
+    if(keyIsDown(13)){
       
       Player2Obj.changeAnimation("Punch");
       
